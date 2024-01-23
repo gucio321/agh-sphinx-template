@@ -1,11 +1,12 @@
-\documentclass[11pt,a4paper]{report}
-\usepackage{polski}
-\usepackage[utf8]{inputenc}
-\usepackage[margin=3.5cm]{geometry}
-\usepackage{graphicx}
+%%\documentclass[11pt,a4paper]{report}
+%%\usepackage[polish]{babel}
+%%\usepackage[utf8]{inputenc}
+%%\usepackage[margin=3.5cm]{geometry}
+%%\usepackage{graphicx}
+%%\usepackage[T1]{fontenc}
 
 %% ########################################################
-\begin{document}
+%%\begin{document}
 \thispagestyle{empty}
 \begin{center}
 \includegraphics[width=\textwidth]{logo_AGH.jpg}\\
@@ -54,5 +55,5 @@ Opiekun pracy: & stopień lub tytuł naukowy Imiona i Nazwisko, prof. AGH\\
 %% ########################################################
 \newpage
 %% ########################################################
-\end{document}
+%%\end{document}
 

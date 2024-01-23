@@ -14,12 +14,12 @@ DISCLAIMER: This is NOT an official template!
 dyrektywa plot wywołuje wewnętrzny program (w tym przypadku gnuplot
 https://pypi.org/project/sphinxcontrib-plot/
 
+-->
 ```{plot} gnuplot
 :caption: podpis
 
 plot sin(x)
 ```
--->
 
 <!--
 Use this to generate toctree

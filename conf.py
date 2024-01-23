@@ -98,8 +98,15 @@ myst_enable_extensions = [
     "tasklist",
 ]
 
+latex_additional_files = ['resources/titlepage.cls', 'resources/logo_AGH.jpg']
 latex_elements = {
+        'papersize': 'letterpaper',
+        'pointsize': '10pt',
         'preamble': r'''
         \usepackage{cancel}
+        \usepackage[utf8]{inputenc}
+        %%\usepackage[margin=3.5cm]{geometry}
+        \usepackage{graphicx}
         ''',
+        'maketitle': '\\input{titlepage.cls}'
 }

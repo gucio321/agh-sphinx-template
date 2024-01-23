@@ -34,3 +34,13 @@ Available technologies:
 ## Resources
 
 - [AGH - WFIiS Title Pag template](https://www.overleaf.com/latex/templates/praca-dyplomowa/kbwcrcmczypy)
+
+<details><summary>Investigation about latex customization
+
+- `latex_logo` could set logo
+- `latex_additional_files` works similar to `html_static_path`
+- we can also install texlive-hyphen-polish.noarch
+- also for rounding boxes texlive-pict2e.noarch
+- also they want this too texlive-ellipse.noarch
+
+</details>
