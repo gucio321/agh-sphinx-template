@@ -35,7 +35,7 @@ Available technologies:
 
 - [AGH - WFIiS Title Pag template](https://www.overleaf.com/latex/templates/praca-dyplomowa/kbwcrcmczypy)
 
-<details><summary>Investigation about latex customization
+<details><summary>Investigation about latex customization</summary>
 
 - `latex_logo` could set logo
 - `latex_additional_files` works similar to `html_static_path`
