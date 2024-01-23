@@ -5,3 +5,8 @@
 ```
 -->
 
+<!-- tak się robi wykres
+```{plot} gnuplot
+plot sin(x)
+```
+-->

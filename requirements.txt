@@ -2,4 +2,5 @@ sphinx
 myst-parser
 cloud-sptheme
 sphinxcontrib-images
+sphinxcontrib-plot
 myst-parser
