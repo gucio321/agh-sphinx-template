@@ -20,13 +20,13 @@
 %% KATEDRA ODDZIAŁYWAŃ I DETEKCJI CZĄSTEK
 %% KATEDRA ZASTOSOWAŃ FIZYKI JĄDROWEJ
 %% ======================================================
-{\sf{\huge Projekt dyplomowy/Praca dyplomowa}}\\[12mm] 
+{\sf{\huge \sphinxDocumentTitle}}\\[12mm] 
 %% Projekt dyplomowy = inżynierska
 %% Praca dyplomowa = magisterska
 %% ======================================================
-{\sf{\Large Tytuł pracy w języku oryginalnym\\[2mm] %% Niepotrzebne usunąć
-Tytuł pracy w języku polskim\\[2mm] %% Jeżeli praca została napisana w języku innym niż język polski
-Tytuł pracy w języku angielskim %% Jeżeli praca została napisana w języku innym niż język angielski
+{\sf{\Large \sphinxDocumentSubtitle\\[2mm] %% Niepotrzebne usunąć
+\sphinxDocumentSubtitleBis %%\\[2mm] %% Jeżeli praca została napisana w języku innym niż język polski
+%% Tytuł pracy w języku angielskim %% Jeżeli praca została napisana w języku innym niż język angielski
 %% ======================================================
 %% W przypadku pracy napisanej
 %% - po polsku: dwa tytuły,
@@ -37,19 +37,23 @@ Tytuł pracy w języku angielskim %% Jeżeli praca została napisana w języku i
 \end{center}
 {\sf
 \begin{tabular}{ll}
-Autor: & Imiona i Nazwisko Dyplomanta\\
-Kierunek studiów: &	Nazwa Kierunku Studiów\\
+Autor: & \sphinxDocumentAuthor\\
+\ifdefined\sphinxDocumentProfile
+Kierunek studiów: &	\sphinxDocumentProfile\\
+\fi
 %% Fizyka Techniczna
 %% Fizyka Medyczna
 %% Informatyka Stosowana 
 %% Mikro- i Nanotechnologie w biofizyce
 %% Nanoinżynieria Materiałów
 %% Computer Physics
-Opiekun pracy: & stopień lub tytuł naukowy Imiona i Nazwisko, prof. AGH\\
+\ifdefined\sphinxDocumentProtector
+Opiekun pracy: & \sphinxDocumentProtector\\
+\fi
 \end{tabular}
 }\\[10mm]
 \begin{center}
-{\sf Kraków, 2024}
+{\sf \sphinxDocumentTownAndYear}
 \end{center}
 
 %% ########################################################

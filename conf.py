@@ -20,6 +20,15 @@
 project = 'Title'
 copyright = '2023, Author'
 author = 'Author'
+titlepage = {
+        "title": "Praca",
+        "subtitle":"Tytuł pracy",
+        "subtitle2":"Document Title",
+        "author": author,
+        "profile": "Fizyka Techniczna",
+        "protector": "Opiekun",
+        "townAndYear": "Kraków 2024",
+}
 
 # for cloud_sptheme.ext.issue_tracker
 issue_tracker_url="gh:gucio321/fizyka"
@@ -98,6 +107,13 @@ myst_enable_extensions = [
     "tasklist",
 ]
 
+# just helper :-P
+def defineLatexVar(varName : str, var : str) -> str:
+    if var == None or var == "":
+        return ""
+
+    return r'\newcommand{' + varName + r'}{' + var + "}"
+
 latex_additional_files = ['resources/titlepage.cls', 'resources/logo_AGH.jpg']
 latex_elements = {
         'papersize': 'letterpaper',
@@ -107,6 +123,13 @@ latex_elements = {
         \usepackage[utf8]{inputenc}
         %%\usepackage[margin=3.5cm]{geometry}
         \usepackage{graphicx}
+        \newcommand{\sphinxDocumentTitle}{'''+titlepage['title']+r'''}
+        \newcommand{\sphinxDocumentSubtitle}{'''+titlepage['subtitle']+r'''}
+        \newcommand{\sphinxDocumentSubtitleBis}{'''+titlepage['subtitle2']+r'''}
+        \newcommand{\sphinxDocumentAuthor}{'''+titlepage['author']+r'''}
+        ''' + defineLatexVar("\sphinxDocumentProfile", titlepage['profile']) + r'''
+        ''' + defineLatexVar("\sphinxDocumentProtector", titlepage['protector']) + r'''
+        ''' + defineLatexVar("\sphinxDocumentTownAndYear", titlepage['townAndYear']) + r'''
         ''',
         'maketitle': '\\input{titlepage.cls}'
 }
