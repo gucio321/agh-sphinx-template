@@ -2,7 +2,11 @@
 
 I use it for my personal projects but feel free to try it out.
 
-# Usage
+# AGH Sphinx Template
+
+Sphinx project template for Akademia Górniczo-Hutnicza im. Stanisława Staszica documents.
+
+## Usage
 
 1. Clone this repository or create your own from the template.
 2. Edit conf.py and/or other files (I'll put list here). The variables you may want to use are on top of `conf.py` (title/author, e.t.c.)
@@ -26,3 +30,7 @@ Available technologies:
 - Markdown files support
 - Latex formulas
 - Plots [check here for more info](https://pypi.org/project/sphinxcontrib-plot/)
+
+## Resources
+
+- [AGH - WFIiS Title Pag template](https://www.overleaf.com/latex/templates/praca-dyplomowa/kbwcrcmczypy)
