@@ -19,7 +19,7 @@ Sphinx project template for Akademia Górniczo-Hutnicza im. Stanisława Staszica
 On fedora you need to install this:
 
 ```sh
-dnf install -y latexmk texlive-cmap texlive-collection-fontsrecommended texlive-fncychap texlive-wrapfig texlive-capt-of texlive-framed texlive-upquote texlive-needspace texlive-tabulary texlive-parskip texlive-oberdiek texlive-cancel
+dnf install -y latexmk texlive-cmap texlive-collection-fontsrecommended texlive-fncychap texlive-wrapfig texlive-capt-of texlive-framed texlive-upquote texlive-needspace texlive-tabulary texlive-parskip texlive-oberdiek texlive-cancel texlive-hyphen-polish texlive-pict2e texlive-ellipse.noarch
 ```
 
 I'm not sure about other OS - Let me know if you find it out!
@@ -39,8 +39,6 @@ Available technologies:
 
 - `latex_logo` could set logo
 - `latex_additional_files` works similar to `html_static_path`
-- we can also install texlive-hyphen-polish.noarch
-- also for rounding boxes texlive-pict2e.noarch
-- also they want this too texlive-ellipse.noarch
+- thsi is about figures naming: https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-numfig_format
 
 </details>
