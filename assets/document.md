@@ -14,6 +14,7 @@ For full documentation see [here](//pypi.org/project/sphinxcontrib-plot/)
 
 ```{plot} gnuplot
 :caption: Przykładowy wykres
+:size: 300,200
 
 plot sin(x), cos(x)
 ```
