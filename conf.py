@@ -42,7 +42,6 @@ extensions = [
         "sphinx.ext.githubpages",
         "sphinxcontrib.images", # https://github.com/sphinx-contrib/images
         "sphinxcontrib.plot",
-        "myst_parser",
         #"cloud_sptheme.ext.issue_tracker",
         "myst_parser" # ref: https://www.sphinx-doc.org/en/master/usage/markdown.html
 ]
