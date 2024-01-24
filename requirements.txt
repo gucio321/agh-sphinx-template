@@ -2,5 +2,5 @@ sphinx
 myst-parser
 cloud-sptheme
 sphinxcontrib-images
-sphinxcontrib-plot
+sphinxcontrib-plot @ git+https://github.com/gucio321/sphinxcontrib-plot@fd1b7c449ef5ce8a8ed3474238aa4a5be74c4e70
 myst-parser

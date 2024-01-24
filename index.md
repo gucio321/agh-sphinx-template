@@ -10,22 +10,8 @@ DISCLAIMER: This is NOT an official template!
 ```
 -->
 
-<!-- tak się robi wykres
-dyrektywa plot wywołuje wewnętrzny program (w tym przypadku gnuplot
-https://pypi.org/project/sphinxcontrib-plot/
-
--->
-```{plot} gnuplot
-:caption: podpis
-
-plot sin(x)
-```
-
-<!--
-Use this to generate toctree
 ```{toctree}
 :maxdepth: 3
 
-path/to/some/file.md
+assets/document.md
 ```
--->
